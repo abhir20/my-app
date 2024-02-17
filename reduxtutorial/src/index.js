@@ -3,21 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import ReducerTutorial from './ReducerTutorial';
-import UseEffectTutorial from './UseEffectTutorial';
-import UseRefTutorial from './UseRefTutorial';
-import UseLayoutEffect from './UseLayoutEffect';
-
-
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <UseLayoutEffect />
+    <App />
   </React.StrictMode>
 );
-
-
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
